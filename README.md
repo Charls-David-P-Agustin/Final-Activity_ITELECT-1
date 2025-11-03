@@ -31,7 +31,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    // this is the second text which is the question for visiting 
+    // this is the second text which is the question for visiting
     <TextView
         android:id="@+id/textViewInstructions"
         android:layout_width="0dp"
@@ -103,7 +103,7 @@
         app:layout_constraintEnd_toEndOf="parent" />
 
 
-    // 
+    // This is the first button 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
@@ -125,7 +125,7 @@
         app:layout_constraintStart_toEndOf="@id/button"
         app:layout_constraintTop_toBottomOf="@id/spinnerOptions" />
 
-    // This are the 1st image of the items
+    // This is for image button
     <ImageButton
         android:id="@+id/imageButton"
         android:layout_width="161dp"
@@ -152,7 +152,7 @@
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="346dp">
 
-        //
+        //This is the 1st image 
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="wrap_content"
@@ -171,7 +171,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/imageSwitcher" />
 
-    //
+    //THis is the extra of images
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="159dp"
